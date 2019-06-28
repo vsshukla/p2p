@@ -1,0 +1,146 @@
+{
+	"variables": [],
+	"info": {
+		"name": "p2p copy",
+		"_postman_id": "634d90ba-3170-4d07-cf04-6450342785d2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"url": "http://p2p.youradmire.com/api/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "raghugkp10@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"url": "http://p2p.youradmire.com/api/register",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "role",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Test ",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "middle_name",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Borrower",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "aadhar_number",
+							"value": "121313232",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "pan_number",
+							"value": "111111111",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "test1@yopmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "confirm_password",
+							"value": "123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "1234567891",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "otp",
+							"value": "2543",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Send Email Verification OTP",
+			"request": {
+				"url": "http://p2p.youradmire.com/api/send-email-verfication-otp",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "test1@yopmail.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
